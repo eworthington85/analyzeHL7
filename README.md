@@ -1,6 +1,6 @@
 # analyzeHL7
 
-The goal of this program is to use the HL7apy library to build a parser that returns an HL7 ADT type message as a dictionary for future processing. There will be a minimum three classes:
+The goal of this program is to use the hl7 library to build a parser that returns an HL7 ADT type message as a dictionary for future processing. There will be a minimum three classes:
 
 1. AO3 - This will take in a single message and return specified fields in a dictionary.
 2. A03dir - This will return a dictionary of dictionaries of all of the messages in a folder.It will use but not inherit form ADTmessage.
