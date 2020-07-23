@@ -2,7 +2,6 @@ import hl7
 import os
 import numpy
 import pandas as pd
-import traceback
 class A03:
     """
     This class will take an A03 in the hl7-python API object format. I will extract a series of values from it, convert them to strings,
@@ -112,7 +111,6 @@ class A03dir():
                     msg = A03(h)
                     return_dict[readable_file] = msg.get_message()
             except:
-                #traceback.print_exc()
                 continue
         return return_dict
 class A03df:
